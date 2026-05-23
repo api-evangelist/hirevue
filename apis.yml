@@ -1,0 +1,159 @@
+aid: hirevue
+name: HireVue
+url: https://raw.githubusercontent.com/api-evangelist/hirevue/refs/heads/main/apis.yml
+description: >-
+  HireVue is an AI-driven hiring platform built around video interviewing,
+  conversational AI, structured assessments, automated scheduling, and an AI
+  Hiring Agent. The platform plugs into the major ATS systems (Workday, SAP
+  SuccessFactors, Oracle/Taleo, iCIMS, Greenhouse, SmartRecruiters, PageUp,
+  Cornerstone, Avature, Oleeo, BrassRing) and exposes REST APIs and webhooks to
+  customers and certified partners via the HireVue developer portal at
+  developer.hirevue.com. At the time of this profile the public developer
+  portal was not responding to crawl, so APIs are listed at the
+  product/capability level and the developer portal URL is captured as the
+  canonical reference.
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Video Interviewing
+  - Assessments
+  - AI Hiring
+  - Scheduling
+  - Conversational AI
+  - HR Tech
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: hirevue:video-interviewing
+    name: HireVue Video Interviewing API
+    description: >-
+      Creates, manages, and retrieves on-demand and live video interviews,
+      including structured interview guides, candidate invitations, and
+      recorded responses. Exposed to customers and certified ATS partners
+      through the HireVue developer portal.
+    humanURL: https://developer.hirevue.com
+    baseURL: https://api.hirevue.com
+    tags:
+      - Video Interviewing
+      - Interviews
+      - Recordings
+    properties:
+      - type: Documentation
+        url: https://developer.hirevue.com
+  - aid: hirevue:assessments
+    name: HireVue Assessments API
+    description: >-
+      Provisions and scores HireVue assessments including skill validation,
+      assessment builder, virtual job tryouts, game-based assessments, technical
+      coding assessments, and language proficiency tests.
+    humanURL: https://developer.hirevue.com
+    baseURL: https://api.hirevue.com
+    tags:
+      - Assessments
+      - Skills
+      - Coding
+      - Game-Based Assessment
+    properties:
+      - type: Documentation
+        url: https://developer.hirevue.com
+  - aid: hirevue:coordinate-scheduling
+    name: HireVue Coordinate (Scheduling) API
+    description: >-
+      Automated interview scheduling and coordination across candidate and
+      interviewer calendars. Supports self-scheduling links, panel scheduling,
+      and rescheduling flows.
+    humanURL: https://developer.hirevue.com
+    baseURL: https://api.hirevue.com
+    tags:
+      - Scheduling
+      - Coordinate
+      - Calendars
+    properties:
+      - type: Documentation
+        url: https://developer.hirevue.com
+  - aid: hirevue:ai-hiring-agent
+    name: HireVue AI Hiring Agent
+    description: >-
+      Agentic AI surface that engages candidates conversationally, conducts
+      structured screening, and routes qualified applicants into interview
+      and assessment workflows.
+    humanURL: https://www.hirevue.com/platform
+    baseURL: https://api.hirevue.com
+    tags:
+      - AI Hiring Agent
+      - Conversational AI
+      - Screening
+    properties:
+      - type: Documentation
+        url: https://developer.hirevue.com
+  - aid: hirevue:text-automation
+    name: HireVue Text Recruiting / Match and Apply
+    description: >-
+      SMS and chat-based candidate engagement, text recruiting, and Match and
+      Apply flows that move candidates from interest to application.
+    humanURL: https://www.hirevue.com/platform
+    baseURL: https://api.hirevue.com
+    tags:
+      - Text Recruiting
+      - SMS
+      - Conversational AI
+    properties:
+      - type: Documentation
+        url: https://developer.hirevue.com
+  - aid: hirevue:interview-insights
+    name: HireVue Interview Insights
+    description: >-
+      Analytics product that aggregates interview, assessment, and pipeline
+      data into reporting and hiring science insights.
+    humanURL: https://www.hirevue.com/platform
+    baseURL: https://api.hirevue.com
+    tags:
+      - Analytics
+      - Insights
+      - Reporting
+    properties:
+      - type: Documentation
+        url: https://developer.hirevue.com
+  - aid: hirevue:webhooks
+    name: HireVue Webhooks
+    description: >-
+      Server-to-server event delivery covering interview lifecycle, assessment
+      completion, scheduling events, and candidate status changes.
+    humanURL: https://developer.hirevue.com
+    baseURL: customer-configured
+    tags:
+      - Webhooks
+      - Events
+      - Callbacks
+    properties:
+      - type: Documentation
+        url: https://developer.hirevue.com
+common:
+  - type: Website
+    url: https://www.hirevue.com
+  - type: Platform
+    url: https://www.hirevue.com/platform
+  - type: Developer
+    url: https://developer.hirevue.com
+  - type: Integrations
+    url: https://www.hirevue.com/integrations
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hirevue/
+integrations:
+  - name: Workday
+  - name: SAP SuccessFactors
+  - name: Oracle
+  - name: Taleo
+  - name: SmartRecruiters
+  - name: PageUp
+  - name: iCIMS
+  - name: Greenhouse
+  - name: Cornerstone
+  - name: Oleeo
+  - name: Avature
+  - name: Infinite BrassRing
+  - name: Eightfold
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
