@@ -130,6 +130,12 @@ apis:
       - type: Documentation
         url: https://developer.hirevue.com
 common:
+  - type: TrustCenter
+    url: security/hirevue-trust-center.yml
+  - type: DomainSecurity
+    url: security/hirevue-domain-security.yml
+  - type: Blog
+    url: https://www.hirevue.com/blog
   - type: Website
     url: https://www.hirevue.com
   - type: Platform
