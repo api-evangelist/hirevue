@@ -135,6 +135,10 @@ apis:
     humanURL: https://developer.hirevue.com
     baseURL: customer-configured
     tags:
+      - Webhook
+      - Event
+      - Callbacks
+    tags_raw:
       - Webhooks
       - Events
       - Callbacks
